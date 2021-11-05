@@ -21,11 +21,17 @@ const divideButton = document.getElementById('divide-button');
 const divideResult = document.getElementById('divide-result');
 
 addButton.addEventListener('click', () => {
-
   const number1 = +addInput1.value;
   const number2 = +addInput2.value;
 
   const result = add(number1, number2);
-
   addResult.textContent = result;
+});
+
+subButton.addEventListener('click', () => {
+  const number1 = +subInput1.value;
+  const number2 = +subInput2.value;
+
+  const result = sub(number1, number2);
+  subResult.textContent = result;
 });
