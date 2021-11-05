@@ -43,3 +43,11 @@ multButton.addEventListener('click', () => {
   const result = mult(number1, number2);
   multResult.textContent = result;
 });
+
+divideButton.addEventListener('click', () => {
+  const number1 = +divideInput1.value;
+  const number2 = +divideInput2.value;
+
+  const result = divide(number1, number2);
+  divideResult.textContent = result;
+});
