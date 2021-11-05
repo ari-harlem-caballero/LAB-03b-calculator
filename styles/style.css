@@ -121,7 +121,7 @@ footer {
     margin: 10px 0 10px 0;
     width: 180px;
     display: grid;
-    grid-template-rows: 1fr 20px 1fr 40px;
+    grid-template-rows: 1fr 20px 1fr 30px;
     justify-content: center;
     text-align: center;
     background-color: aqua;
@@ -130,6 +130,14 @@ footer {
 .input {
     margin: 10px;
     width: 80px;
+}
+
+.button {
+    margin: 5px 0 0 0;
+}
+
+.result {
+    margin-top: 10px;
 }
 
 p {
