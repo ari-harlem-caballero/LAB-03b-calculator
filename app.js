@@ -35,3 +35,11 @@ subButton.addEventListener('click', () => {
   const result = sub(number1, number2);
   subResult.textContent = result;
 });
+
+multButton.addEventListener('click', () => {
+  const number1 = +multInput1.value;
+  const number2 = +multInput2.value;
+
+  const result = mult(number1, number2);
+  multResult.textContent = result;
+});
