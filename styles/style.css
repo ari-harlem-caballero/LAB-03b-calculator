@@ -118,13 +118,14 @@ footer {
 
 .math {
     padding: 30px 0 30px 0;
-    margin: 10px 0 10px 0;
+    margin: 10px 0 40px 0;
     width: 180px;
     display: grid;
     grid-template-rows: 1fr 20px 1fr 30px;
     justify-content: center;
     text-align: center;
-    background-color: aqua;
+    background-color: hsla(180, 100%, 50%, 0.8);
+    border-radius: 20px;
 }
 
 .input {
