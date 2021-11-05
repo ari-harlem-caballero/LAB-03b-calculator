@@ -20,7 +20,6 @@ body {
     
     font-family: 'Titillium Web', sans-serif;
     /* background-color: var(--color2); */
-    background-image: url('../assets/jungle_90.png');
 }
 
 main {
@@ -29,6 +28,10 @@ main {
     justify-content: center;
     align-items: center;
     margin-bottom: calc(var(--footer-height));
+    background-image: url('../assets/jungle_90.png');
+    height: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 section {
@@ -144,4 +147,10 @@ footer {
 p {
     padding: 0;
     margin: 0;
+    font-weight: bolder;
+    font-size: 15px;
+}
+
+#minus {
+    font-size: 20px;
 }
