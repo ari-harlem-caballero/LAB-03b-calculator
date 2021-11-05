@@ -26,4 +26,6 @@ addButton.addEventListener('click', () => {
   const number2 = +addInput2.value;
 
   const result = add(number1, number2);
+
+  addResult.textContent = result;
 });
