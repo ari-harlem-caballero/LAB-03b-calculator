@@ -124,7 +124,7 @@ footer {
     grid-template-rows: 1fr 20px 1fr 30px;
     justify-content: center;
     text-align: center;
-    background-color: hsla(180, 100%, 50%, 0.8);
+    background-color: hsl(108, 27%, 57%, 0.9);
     border-radius: 20px;
 }
 
