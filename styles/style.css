@@ -19,9 +19,9 @@ body {
 }
 
 section {
-    /* background-color: var(--color5);
+    background-color: var(--color5);
     width: 1000px;
-    max-width: 80%; */
+    max-width: 80%;
     display: grid;
     grid-template-rows: 1fr 1fr;
     grid-template-columns: 1fr 1fr;
@@ -89,11 +89,11 @@ footer {
 
   } */
 
-/* .main-section {
+.main-section {
     display: grid;
     grid-template-rows: 1fr 1fr;
     grid-template-columns: 1fr 1fr;
-} */
+}
 
 .math {
     padding: 30px 0 30px 0;
